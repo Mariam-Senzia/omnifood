@@ -141,13 +141,18 @@ body {
   color: #e8590c;
 }
 
-.nav-cta:link,
-.nav-cta:visited {
+.main-nav-link.nav-cta:link,
+.main-nav-link.nav-cta:visited {
   display: inline-block;
   padding: 0.8rem 1.6rem;
   border-radius: 9px;
   color: #fff;
   background-color: #e67e22;
+}
+
+.main-nav-link.nav-cta:hover,
+.main-nav-link.nav-cta:active {
+  background-color: #e8590c;
 }
 
 /* *********************************** */
@@ -156,11 +161,11 @@ body {
 .section-hero {
   background-color: #fff4e6;
   /* padding: 9.6rem 0; */
-  padding: 1rem 0;
+  padding: 1.5rem 0;
 }
 
 .hero {
-  max-width: 130rem;
+  max-width: 100rem;
   margin: 0 auto;
   padding: 0 3.2rem;
   display: grid;
