@@ -47,14 +47,34 @@ body {
 /* *********************************** */
 /* GENERAL REUSABLE COMPONENTS */
 /* *********************************** */
+.heading-primary,
+.heading-secondary {
+  font-weight: 700;
+  letter-spacing: -0.5px;
+  color: #333;
+}
+
 .heading-primary {
   /* font-size: 5.2rem; */
   font-size: 3.6rem;
-  font-weight: 700;
   line-height: 1.05;
-  letter-spacing: -0.5px;
-  color: #333;
+
   margin-bottom: 2.8rem;
+}
+
+.heading-secondary {
+  font-size: 2.8rem;
+  line-height: 1.6;
+  margin-bottom: 5.2rem;
+}
+
+.subheading {
+  display: block;
+  font-size: 1.2rem;
+  font-weight: 500;
+  color: #e8590c;
+  text-transform: uppercase;
+  margin-bottom: 1rem;
 }
 
 .btn:link,
@@ -97,6 +117,25 @@ body {
 
 .margin-right-sm {
   margin-right: 1.6rem !important;
+}
+
+.container {
+  max-width: 100rem;
+  margin: 0 auto;
+  padding: 0 3.2rem;
+}
+
+.grid {
+  display: grid;
+  gap: 9.6rem;
+}
+
+.grid-2-cols {
+  grid-template-columns: repeat(2, 1fr);
+}
+
+.grid-3-cols {
+  grid-template-columns: repeat(3, 1fr);
 }
 
 /* *********************************** */
@@ -162,6 +201,7 @@ body {
   background-color: #fff4e6;
   /* padding: 9.6rem 0; */
   padding: 1.5rem 0;
+  padding-bottom: 5rem;
 }
 
 .hero {
@@ -216,4 +256,15 @@ body {
 .delivered-text span {
   color: #e8590c;
   font-weight: 700;
+}
+
+/* *********************************** */
+/* HOW IT WORKS SECTION */
+/* *********************************** */
+.section-how {
+  padding: 5.2rem 0;
+}
+
+.step-img {
+  width: 50%;
 }
