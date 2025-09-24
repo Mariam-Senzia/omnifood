@@ -202,3 +202,80 @@
 .step-img {
   width: 35%;
 }
+
+/* *********************************** */
+/* MEALS SECTION */
+/* *********************************** */
+.section-meals {
+  padding: 3.2rem 0 1.8rem 0;
+}
+
+.meal {
+  box-shadow: 0 1.2rem 4.8rem rgba(0, 0, 0, 0.075);
+  border-radius: 11px;
+  overflow: hidden;
+}
+
+.meal-content {
+  padding: 2.4rem 3.2rem;
+}
+
+.meal-tags {
+  margin-bottom: 1.2rem;
+  display: flex;
+  gap: 0.4rem;
+}
+
+.tag {
+  display: inline-block;
+  padding: 0.4rem 0.8rem;
+  font-size: 0.8rem;
+  font-weight: 600;
+  text-transform: uppercase;
+
+  color: #333;
+  border-radius: 100px;
+}
+
+.tag-vegeterian {
+  background-color: #51cf66;
+}
+
+.tag-vegan {
+  background-color: #94d82d;
+}
+
+.tag-paleo {
+  background-color: #ffd43b;
+}
+
+.meal-title {
+  font-size: 1.6rem;
+  color: #333;
+  font-weight: 600;
+  margin-bottom: 2.4rem;
+}
+
+.meal-attributes {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  gap: 1.4rem;
+}
+
+.meal-attribute {
+  font-size: 1.2rem;
+  display: flex;
+  align-items: center;
+  gap: 1.4rem;
+}
+
+.meal-img {
+  width: 100%;
+}
+
+.meal-icon {
+  height: 1.8rem;
+  width: 1.8rem;
+  color: #e67e22;
+}
