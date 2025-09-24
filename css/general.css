@@ -138,7 +138,7 @@ body {
 .grid {
   display: grid;
   column-gap: 6.4rem;
-  row-gap: 9.6rem;
+  row-gap: 8rem;
 }
 
 .grid-2-cols {
