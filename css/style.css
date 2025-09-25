@@ -309,19 +309,28 @@
 .all-recipes {
   text-align: center;
   font-size: 1.4rem;
+  margin-bottom: 1.6rem;
 }
 
 /* *********************************** */
 /* TESTIMONIAL SECTION */
 /* *********************************** */
 .section-testimonials {
-  padding: 5.2rem 0;
+  background-color: #fff4e6;
+  display: grid;
+  grid-template-columns: 55fr 45fr;
+  align-items: center;
+}
+
+.testimonials-container {
+  padding: 5.2rem;
 }
 
 .testimonials {
   display: grid;
   grid-template-columns: 1fr 1fr;
-  gap: 3.2rem;
+  row-gap: 3.2rem;
+  column-gap: 8rem;
 }
 
 .testimonial-img {
@@ -332,11 +341,32 @@
 
 .testimonial-text {
   font-size: 1.2rem;
-  line-height: 1.6;
+  line-height: 1.5;
   margin-bottom: 1rem;
 }
 
 .testimonial-name {
   font-size: 1rem;
-  color: #777;
+  color: #6f6f6f;
+}
+
+.gallery {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 0.8rem;
+  padding: 1rem;
+}
+
+.gallery-item {
+  overflow: hidden;
+}
+
+.gallery-item img {
+  display: block;
+  width: 100%;
+  transition: all 0.4s;
+}
+
+.gallery-item img:hover {
+  transform: scale(1.1);
 }
