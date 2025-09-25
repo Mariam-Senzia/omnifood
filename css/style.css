@@ -310,3 +310,33 @@
   text-align: center;
   font-size: 1.4rem;
 }
+
+/* *********************************** */
+/* TESTIMONIAL SECTION */
+/* *********************************** */
+.section-testimonials {
+  padding: 5.2rem 0;
+}
+
+.testimonials {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 3.2rem;
+}
+
+.testimonial-img {
+  width: 5.2rem;
+  border-radius: 50%;
+  margin-bottom: 1rem;
+}
+
+.testimonial-text {
+  font-size: 1.2rem;
+  line-height: 1.6;
+  margin-bottom: 1rem;
+}
+
+.testimonial-name {
+  font-size: 1rem;
+  color: #777;
+}
