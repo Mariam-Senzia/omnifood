@@ -185,12 +185,24 @@ body {
   row-gap: 8rem;
 }
 
+/* .grid:not(:last-child) {
+  margin-bottom: 5.2rem;
+} */
+
+.grid:last-child {
+  margin-top: 5.2rem;
+}
+
 .grid-2-cols {
   grid-template-columns: repeat(2, 1fr);
 }
 
 .grid-3-cols {
   grid-template-columns: repeat(3, 1fr);
+}
+
+.grid-4-cols {
+  grid-template-columns: repeat(4, 1fr);
 }
 
 .grid-center-v {
