@@ -1,5 +1,5 @@
 /* 
---- 01 TYPOGRAPY SYSTEM 
+--- 01 TYPOGRAPY
 
 - Font sizes (px):
 10 / 12/ 14/ 16/ 18/ 20/ 24/ 30/ 36/ 44/ 52/ 62/ 74/ 86/ 98
@@ -12,7 +12,9 @@ Default: 1
 
 --- 02 COLORS
 
-- Primary: #e67e22
+- Primary: 
+#e67e22
+
 - Tints:
 #fff4e6
 #ffe8cc
@@ -24,11 +26,7 @@ Default: 1
 #555
 #333
 
---- 05 SHADOWS
-
---- 06 BORDER-RADIUS
-
---- 07 WHITESPACE
+--- 02 COLORS SPACING
 
 - SPACING SYSTEM
 2/ 4/ 8/ 12/ 16/ 24/ 32/ 48/ 64/ 80/ 96/ 128
@@ -59,7 +57,6 @@ body {
 }
 
 .heading-primary {
-  /* font-size: 5.2rem; */
   font-size: 3.6rem;
   line-height: 1.05;
 
@@ -206,10 +203,6 @@ body {
   column-gap: 6.4rem;
   row-gap: 8rem;
 }
-
-/* .grid:not(:last-child) {
-  margin-bottom: 5.2rem;
-} */
 
 .grid:last-child {
   margin-top: 5.2rem;

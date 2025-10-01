@@ -462,7 +462,7 @@
 /* CTA SECTION */
 /* *********************************** */
 .section-cta {
-  padding: 4.4rem 0;
+  padding: 1rem 0 5.6rem;
 }
 
 .cta {
@@ -541,5 +541,78 @@
 /* FOOTER */
 /* *********************************** */
 .footer {
-  padding: 4.4rem 0;
+  padding: 1rem 0 5.6rem;
+  border-top: 1px solid #eee;
+}
+
+.grid-footer {
+  grid-template-columns: 1.5fr 1.5fr 1fr 1fr 1fr;
+}
+
+.logo-col {
+  display: flex;
+  flex-direction: column;
+}
+
+.footer-logo {
+  display: block;
+  margin-bottom: 1.4rem;
+}
+
+.footer-logo img {
+  height: 1.8rem;
+}
+
+.social-links {
+  list-style: none;
+  display: flex;
+  gap: 1.4rem;
+}
+
+.social-icon {
+  height: 1.8rem;
+  width: 1.8rem;
+}
+
+.copyright {
+  font-size: 1rem;
+  color: #767676;
+  line-height: 1.6;
+  margin-top: auto;
+}
+
+.footer-heading {
+  font-size: 1.2rem;
+  font-weight: 500;
+  margin-bottom: 2rem;
+}
+
+.contacts {
+  font-style: normal;
+  font-size: 1rem;
+  line-height: 2;
+}
+
+/* .address {
+  margin-bottom: 1.4rem;
+} */
+
+.footer-nav {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  gap: 1.2rem;
+}
+
+.footer-link:link,
+.footer-link:visited {
+  text-decoration: none;
+  font-size: 1rem;
+  color: #767676;
+  transition: all 0.3s;
+}
+
+.footer-link:hover,
+.footer-link:active {
+  color: #555;
 }
