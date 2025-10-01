@@ -6,4 +6,39 @@
 /* BELOW 1344PX (Smaller desktops) */
 /* *********************************** */
 @media (max-width: 84em) {
+  .hero {
+    max-width: 80rem;
+  }
+
+  .container {
+    max-width: 80rem;
+  }
+
+  .heading-primary {
+    font-size: 3rem;
+  }
+
+  .gallery {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+/* *********************************** */
+/* BELOW 1200PX (Landscape tablets) */
+/* *********************************** */
+@media (max-width: 80rem) {
+}
+
+/* *********************************** */
+/* BELOW 1200PX (Landscape tablets) */
+/* *********************************** */
+@media (max-width: 75rem) {
+  html {
+    font-size: 75%;
+  }
+  /* 
+  .delivered-imgs img {
+    height: 4rem;
+    width: 4em;
+  } */
 }
