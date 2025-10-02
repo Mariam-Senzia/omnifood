@@ -9,6 +9,7 @@
 
   height: 8rem;
   padding: 0 3.2rem;
+  position: relative;
 }
 
 .logo {
@@ -52,6 +53,25 @@
 .main-nav-link.nav-cta:hover,
 .main-nav-link.nav-cta:active {
   background-color: #e8590c;
+}
+
+/* Mobile */
+.btn-mobile-nav {
+  border: none;
+  background: none;
+  cursor: pointer;
+
+  display: none;
+}
+
+.icon-mobile-nav {
+  height: 3rem;
+  width: 3rem;
+  color: #333;
+}
+
+.icon-mobile-nav[name="close-outline"] {
+  display: none;
 }
 
 /* *********************************** */
