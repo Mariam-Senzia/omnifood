@@ -40,6 +40,7 @@ Default: 1
 
 html {
   overflow-x: hidden;
+  scroll-behavior: smooth;
 }
 
 body {
