@@ -1,4 +1,4 @@
-# omnifood
+# Omnifood
 
 Omnifood is an AI-driven food service platform that helps busy people eat healthy. Users select their dietary preferences, and our algorithm generates personalized weekly meal plans. Partner restaurants then prepare and deliver the meals through a convenient monthly subscription model.
 
